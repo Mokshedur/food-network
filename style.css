@@ -23,5 +23,24 @@
     margin: 200px;
     font size :20px; 
   }
+  .link-button{
+    text-decoration: none;
+    background-color:#FF6F52;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin: 100px;
+  }
+  .ami{
+    text-align: center;
+  }
+  .experience-area{
+    display: 25%;
+  }  
+  .footer-style{
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+  }
+
   
 
