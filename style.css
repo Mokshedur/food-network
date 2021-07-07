@@ -32,10 +32,19 @@
   }
   .ami{
     text-align: center;
+    box-shadow: 10px 10px 40px  gray;
+  }
+  .pic img{
+    width: 60%;
+    display: 25%;
+    box-shadow: 10px 10px 40px green;
   }
   .experience-area{
-    display: 25%;
+    display: 33%;
+    display: flex;
+    box-shadow: 10px 10px 40px green;
   }  
+
   .footer-style{
     text-align: center;
     background-color: black;
