@@ -1,7 +1,85 @@
- body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0px;
-  }
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+}
+
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+.ad {
+  height: 350px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ad_left {
+  width: 740px;
+}
+
+.ad_right {
+  width: 250px;
+}
+
+.ad_right ul {
+  list-style: none;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.product {
+  height: 600px;
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../img/product_title.jpg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 10px;
+  padding-top: 70px;
+}
+
+.product ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.product ul li {
+  border: solid 1px white;
+  width: 210px;
+  line-height: 30px;
+  text-align: center;
+  margin: 5px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.product h5 {
+  color: gray;
+  text-align: left;
+}
+
+.product h4 {
+  color: red;
+  text-align: left;
+}
+
+.product ul li:hover {
+  border: solid 1px orangered;
+}
+ 
   h1{
     font-size: 20px;
     margin-left: 0px;
@@ -11,8 +89,8 @@
     border-radius: 50px;
   }
   .half-width img{
-    width: 50%;
-    display: 50%;
+    width: 30%;
+    display: 40%;
     margin-left: 200px;
     margin-right: 50px;
     margin-bottom: 50px;
@@ -29,7 +107,7 @@
 
   }
   .half-width{
-    display: 50%;
+    display: 60%;
     padding: 2%;
   }
   .flexible-container{
@@ -42,16 +120,18 @@
     background-color:#FF6F52;
     padding: 10px 40px;
     border-radius: 30px;
-    margin: 100px;
-    margin-top: 20px;
+    margin: 20px;
+    margin-top: 50px;
+
   }
   .ami{
     text-align: center;
     box-shadow: 10px 10px 40px  gray;
   }
   .pic img{
-    width: 60%;
+    width: 50%;
     display: 25%;
+    border-radius: 40px;
     box-shadow: 10px 10px 40px green;
   }
   .experience-area{
