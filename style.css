@@ -8,11 +8,25 @@
   }
   .orange-color{
     color: orange;
+    border-radius: 50px;
   }
   .half-width img{
-    width: 40%;
+    width: 50%;
     display: 50%;
-    margin-left: 20px;
+    margin-left: 200px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin: 20px;
+  }
+  .top-banner{
+    display: flex;
+  }
+  .top-banner-flexible-container{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    border-bottom: 40px;
+
   }
   .half-width{
     display: 50%;
@@ -27,8 +41,9 @@
     text-decoration: none;
     background-color:#FF6F52;
     padding: 10px 40px;
-    border-radius: 5px;
+    border-radius: 30px;
     margin: 100px;
+    margin-top: 20px;
   }
   .ami{
     text-align: center;
